@@ -75,10 +75,12 @@ $user = $_SESSION['user'];
                 <p><strong>Email:</strong> <?php echo htmlspecialchars($user['Email']); ?></p>
                 <p><strong>Vai trò:</strong> <?php echo htmlspecialchars($user['Role']); ?></p>
             </div>
+            <div class="mt-1">
+                 <a class="btn btn-accent-arrow mt-1 " href="views/admin/add_book.php">Thêm sách</a>
+            </div>
         </div>
     </div>
   
-    <a href="views/admin/add_book.php">Thêm sách</a>
 
 
 

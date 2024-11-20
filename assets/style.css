@@ -2442,3 +2442,11 @@ footer#footer {
     width: 100%;
   }
 }
+
+#billboard {
+  margin-bottom: 20px; /* Thu hẹp khoảng cách dưới của billboard */
+}
+
+#featured-books {
+  margin-top: 20px; /* Thu hẹp khoảng cách trên của featured-books */
+}
